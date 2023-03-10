@@ -19,4 +19,5 @@ Link: https://andao711-recommendation-system-final-file-gui-8ugoi9.streamlit.app
 ![](https://www.iteratorshq.com/wp-content/uploads/2021/06/content_based_collaborative_filtering.jpg)
 
 In this project, I use Cosine with CountVectorize for Content-based filtering & ALS Pyspark model for Collaborative filtering (RMSE=1.1).
+
 Dataset: https://drive.google.com/drive/folders/1a-np1uBVSkxeRXDbxp-dtvpLYXcTVCci?usp=sharing
