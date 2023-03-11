@@ -3,7 +3,9 @@ Link: https://andao711-recommendation-system-final-file-gui-8ugoi9.streamlit.app
 
 # Capstone Project: Tiki Recommendation System
 ![](img/tiki1.jpg)
-## Our Task: Build a Recommendation System to help Tiki recommends and suggests products for users/customers.
+
+A recommendation system is a type of algorithm designed to recommend or suggest things to the user based on many different factors. The recommendation system deals with a large amount of data and filters it out based on user’s preferences and interests.
+### Our Task: Build a Recommendation System to help Tiki recommends and suggests products for users/customers.
 ### Collaborative Filtering
 - Collaborative filtering relies on the preferences of similar users to offer recommendations to a particular user.
 - Collaborative does not need the features of the items to be given. Every user and item is described by a feature vector or embedding.
@@ -18,6 +20,14 @@ Link: https://andao711-recommendation-system-final-file-gui-8ugoi9.streamlit.app
 - The user profile is created based on data derived from a user’s actions, such as purchases, ratings (likes and dislikes), downloads, items searched for on a website and/or placed in a cart, and clicks on product links.
 ![](https://www.iteratorshq.com/wp-content/uploads/2021/06/content_based_collaborative_filtering.jpg)
 
-In this project, I use Cosine with CountVectorize for Content-based filtering & ALS Pyspark model for Collaborative filtering (RMSE=1.1). I convert result files in ".parquet" type. It help takes less space and queries faster more than ".csv".
+In this project, I use Cosine with CountVectorize for Content-based filtering & ALS Pyspark model for Collaborative filtering (RMSE=1.1). 
 
-Dataset: https://drive.google.com/drive/folders/1a-np1uBVSkxeRXDbxp-dtvpLYXcTVCci?usp=sharing
+I convert result files in ".parquet" type. It help takes less space and queries faster more than ".csv".
+
+### Dataset:
+- Link: https://drive.google.com/drive/folders/1a-np1uBVSkxeRXDbxp-dtvpLYXcTVCci?usp=sharing
+- The dataset have 2 files: ProductRaw.csv, ReviewRaw.csv. The dataset contains information about products, reviews, rating for items in Mobile_Tablet, TV_Audio, Laptop, Camera, Accessory groups. It's collected on tiki.vn.
+### Tech Stack:
+- Language: Python
+- Libraries: pandas, numpy, seaborn, matplotlib, scikit-learn, pyspark, streamlit
+
