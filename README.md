@@ -18,6 +18,6 @@ Link: https://andao711-recommendation-system-final-file-gui-8ugoi9.streamlit.app
 - The user profile is created based on data derived from a user’s actions, such as purchases, ratings (likes and dislikes), downloads, items searched for on a website and/or placed in a cart, and clicks on product links.
 ![](https://www.iteratorshq.com/wp-content/uploads/2021/06/content_based_collaborative_filtering.jpg)
 
-In this project, I use Cosine with CountVectorize for Content-based filtering & ALS Pyspark model for Collaborative filtering (RMSE=1.1).
+In this project, I use Cosine with CountVectorize for Content-based filtering & ALS Pyspark model for Collaborative filtering (RMSE=1.1). I convert result files in ".parquet" type. It help takes less space and queries faster more than ".csv".
 
 Dataset: https://drive.google.com/drive/folders/1a-np1uBVSkxeRXDbxp-dtvpLYXcTVCci?usp=sharing
