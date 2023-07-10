@@ -1,5 +1,5 @@
 # Streamlit app
-Link: https://andao711-recommendation-system-final-file-gui-8ugoi9.streamlit.app/
+Link: [https://andao711-recommendation-system-final-file-gui-8ugoi9.streamlit.app/](https://recommendationsystem-lt0q7s5hkqt.streamlit.app/)
 
 # Capstone Project: Tiki Recommendation System
 ![](img/tiki1.jpg)
