@@ -132,7 +132,7 @@ elif sidebar_option == "Content-based Filtering":
         #Adding recommend products when click
         click_id=recommendations['product_id'][recommendations['image']==img]
         st.write("---"*40)
-        st.write("Recommend more products when clicking the items:")
+        st.write("Recommend products for the item is clicking:")
         product_ID_input= click_id.iloc[0]
         additional_recommendations=content_based_product(product_ID_input).head(4)
         cols = st.columns(4)
