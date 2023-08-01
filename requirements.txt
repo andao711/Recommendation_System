@@ -2,5 +2,5 @@ streamlit
 numpy
 pandas
 scikit-learn
-streamlit-aggrid
+streamlit-aggrid==0.3.3
 streamlit-image-select
