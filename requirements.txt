@@ -1,6 +1,6 @@
 streamlit==1.19.0
 numpy
-pandas==2.0.0
+pandas
 scikit-learn
 streamlit-aggrid==0.3.3
 streamlit-image-select
